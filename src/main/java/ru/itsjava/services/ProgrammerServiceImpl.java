@@ -14,7 +14,7 @@ public class ProgrammerServiceImpl implements ProgrammerService {
 
     @Override
     public List<String> getItems() {
-       return  List.of(notebookService.getNotebook().toString());
+        return List.of(notebookService.getNotebook().toString());
     }
 
     @Override

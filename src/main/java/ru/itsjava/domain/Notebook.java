@@ -1,5 +1,8 @@
 package ru.itsjava.domain;
 
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode
 public class Notebook {
     private final String brand;
 
